@@ -1,6 +1,10 @@
 {
   "debug": false,
   "domain": null,
+  "gitHubPages": {
+    "guid": "8BC0422C-B2A8-4E52-992A-1542E4431443",
+    "repoUrl": "https://github.com/Apex-net/try_mixture.git"
+  },
   "lintScripts": false,
   "modelSource": null,
   "preprocessorLocations": "assets",
