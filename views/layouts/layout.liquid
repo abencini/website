@@ -5,7 +5,7 @@
         <title>{% block title %}Empty{% endblock %}</title>
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
         <!-- Styles -->
-        {{ "app.css" | asset_url | stylesheet_tag }}
+        {{ "application.css" | asset_url | stylesheet_tag }}
         <!-- Style block allowing child pages to inject their own styles -->
         {% block styles %}{% endblock %}
     </head>
@@ -18,6 +18,6 @@
         </div>
         <!-- Script block allowing child pages to inject their own scripts -->
         {% block scripts %}{% endblock %}
-        {{ "app.js" | asset_url | script_tag }}
+        {{ "application.js" | asset_url | script_tag }}
     </body>
 </html>
