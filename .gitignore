@@ -2,7 +2,11 @@
 # Project specific rules
 #
 
+# Ignore Mixture's GitHub settings (each developer should have a separate local
+# copy of it)
 /.githubsettings
+
+# Statically compiled web site
 /converted-html/
 
 # Automatically compiled Sass and CoffeeScript asset files
