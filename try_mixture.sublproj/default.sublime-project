@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "..",
+      "name": "try_mixture",
+      "folder_exclude_patterns": [
+        "*.sublproj",
+        "images",
+        "converted-html"
+      ],
+      "file_exclude_patterns": [
+        ".keep",
+        "*.css",
+        "*.js",
+        "favicon.ico",
+        "package.png"
+      ]
+    }
+  ]
+}
