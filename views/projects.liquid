@@ -1,13 +1,11 @@
-{% block title %}Projects{% endblock %}
-
 {% block content %}
 
-    <h1>Projects</h1>
+<h1>{{ model.title }}</h1>
 
-    {% collection "projects" %}
-        {% for project in collection.items %}
-            <h2>{{ project.title }}</h2>
-        {% endfor %}
-    {% endcollection %}
+{% collection "projects" %}
+    {% for project in collection.items %}
+        <h2>{{ project.title }}</h2>
+    {% endfor %}
+{% endcollection %}
 
 {% endblock %}

@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>{% block title %}Apex&ndash;net{% endblock %}</title>
+        <title>{% block title %}{{ global.title }}{% if model.title %} &mdash; {{ model.title }}{% endif %}{% endblock %}</title>
 
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 
