@@ -2,6 +2,8 @@
 
     <h1>Navigation</h1>
 
+    {{ "160" | placeholder | image_tag: 'Company Logo' }}
+
     <nav>{{ mixture.sitemap | navigation: mixture.url, 'ol', 'li', 'selected', 'Home' }}</nav>
 
 </header>
