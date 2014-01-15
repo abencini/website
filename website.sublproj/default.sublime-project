@@ -2,7 +2,7 @@
   "folders": [
     {
       "path": "..",
-      "name": "try_mixture",
+      "name": "Apex-net",
       "folder_exclude_patterns": [
         "*.sublproj",
         "bitters",

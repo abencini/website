@@ -3,7 +3,7 @@
   "domain": null,
   "gitHubPages": {
     "guid": "8BC0422C-B2A8-4E52-992A-1542E4431443",
-    "repoUrl": "https://github.com/Apex-net/try_mixture.git"
+    "repoUrl": "https://github.com/Apex-net/website.git"
   },
   "lintScripts": false,
   "modelSource": null,
@@ -11,7 +11,7 @@
   "preprocessorScriptOutput": "assets/javascripts",
   "preprocessorStyleOutput": "assets/stylesheets",
   "projectDescription": "A simple empty boilerplate for a fresh start",
-  "projectName": "try_mixture",
+  "projectName": "Apex-net",
   "publishedId": null,
   "serverHostname": null,
   "serverPort": null,
