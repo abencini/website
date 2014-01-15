@@ -16,6 +16,7 @@
   "serverHostname": null,
   "serverPort": null,
   "simpleModePartnerServer": null,
+  "sitemap": true,
   "templateDefaultLayout": "layout",
   "templateDefaultPage": "index",
   "templateDirectory": "views",

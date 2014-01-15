@@ -1,3 +1,6 @@
 <header>
-	<h1>Empty</h1>
+    <nav>
+        <h1>Navigation</h1>
+        {{ mixture.sitemap | navigation: mixture.url, 'ol', 'li', 'selected', 'Home' }}
+    </nav>
 </header>
