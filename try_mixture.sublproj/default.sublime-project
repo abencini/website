@@ -5,6 +5,9 @@
       "name": "try_mixture",
       "folder_exclude_patterns": [
         "*.sublproj",
+        "bitters",
+        "bourbon",
+        "neat",
         "images",
         "converted-html"
       ],
