@@ -9,7 +9,8 @@
         "bourbon",
         "neat",
         "images",
-        "converted-html"
+        "converted-html",
+        ".cache"
       ],
       "file_exclude_patterns": [
         ".keep",

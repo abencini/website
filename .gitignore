@@ -15,6 +15,9 @@
 # Except these
 !/assets/stylesheets/normalize.css
 
+# Mixture collections cache directory
+/collections/.cache/
+
 
 #< < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <
 # DO NOT TOUCH BELOW HERE: AUTO-GENERATED
