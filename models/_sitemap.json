@@ -4,5 +4,11 @@
     "key": "index",
     "name": "Index",
     "url": "/index"
+  },
+  {
+    "directory": false,
+    "key": "about",
+    "name": "About",
+    "url": "/about"
   }
 ]
