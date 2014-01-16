@@ -1,0 +1,13 @@
+{
+  "title": "Team",
+  "roles": {
+    "manager": {
+      "slug": "manager",
+      "title": "Managers"
+    },
+    "developer": {
+      "slug": "developer",
+      "title": "Developers"
+    }
+  }
+}

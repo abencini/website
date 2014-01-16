@@ -16,5 +16,11 @@
     "key": "projects",
     "name": "Projects",
     "url": "/projects"
+  },
+  {
+    "directory": false,
+    "key": "team",
+    "name": "Team",
+    "url": "/team"
   }
 ]
