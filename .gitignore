@@ -18,6 +18,9 @@
 # Mixture collections cache directory
 /collections/.cache/
 
+# Other automatically generated files
+/models/_sitemap.json
+
 
 #< < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <
 # DO NOT TOUCH BELOW HERE: AUTO-GENERATED

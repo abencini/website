@@ -17,7 +17,8 @@
         "*.css",
         "*.js",
         "favicon.ico",
-        "package.png"
+        "package.png",
+        "_sitemap.json"
       ]
     }
   ]
