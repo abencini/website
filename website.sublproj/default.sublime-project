@@ -10,14 +10,15 @@
         "neat",
         "images",
         "converted-html",
-        ".cache"
+        ".cache",
+        "output"
       ],
       "file_exclude_patterns": [
         ".keep",
-        "*.css",
-        "*.js",
+        "normalize.scss",
         "favicon.ico",
-        "package.png"
+        "package.png",
+        "_sitemap.json"
       ]
     }
   ]

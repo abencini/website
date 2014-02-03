@@ -2,7 +2,7 @@
 # Project specific rules
 #
 
-# Ignore Mixture's GitHub settings (each developer should have a separate local
+# Ignore GitHub settings file (each developer should have a separate local
 # copy of it)
 /.githubsettings
 
@@ -10,13 +10,13 @@
 /converted-html/
 
 # Automatically compiled Sass and CoffeeScript asset files
-/assets/**/*.css
-/assets/**/*.js
-# Except these
-!/assets/stylesheets/normalize.css
+/output/
 
-# Mixture collections cache directory
+# Collections' cache directory
 /collections/.cache/
+
+# Other automatically generated files
+/models/_sitemap.json
 
 
 #< < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < < <
