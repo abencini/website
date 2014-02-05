@@ -1,0 +1,11 @@
+<nav>
+    <ol>
+    {% for item in mixture.sitemap %}{% unless item.key == 'index' %}
+
+        <li{% if mixture.url == item.key %} class="selected"{% endif %}>
+            <a href="{{ item.url }}">{{ global.navigation[item.key] }}</a>
+        </li>
+
+    {% endunless %}{% endfor %}
+    </ol>
+</nav>

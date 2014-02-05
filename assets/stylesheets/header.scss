@@ -1,0 +1,11 @@
+header {
+  background-color: $header-background-color;
+
+  nav {
+    float: right;
+
+    li {
+      display: inline-block;
+    }
+  }
+}

@@ -1,9 +1,7 @@
 <header>
 
-    <h1>Navigation</h1>
+    <a href="/">{{ "240x80" | placeholder | image_tag: 'Company Logo' }}</a>
 
-    {{ "160" | placeholder | image_tag: 'Company Logo' }}
-
-    <nav>{{ mixture.sitemap | navigation: mixture.url, 'ol', 'li', 'selected', 'Home' }}</nav>
+    {% include "navigation" %}
 
 </header>
