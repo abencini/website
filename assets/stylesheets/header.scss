@@ -2,11 +2,15 @@ header {
   background-color: $header-background-color;
   height: 5em;
 
-  nav {
-    float: right;
+  div{
+    @include outer-container;
 
-    li {
-      display: inline-block;
+    nav {
+      float: right;
+
+      li {
+        display: inline-block;
+      }
     }
   }
 }
