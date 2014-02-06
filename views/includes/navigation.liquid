@@ -2,9 +2,7 @@
     <ol>
     {% for item in mixture.sitemap %}{% unless item.key == 'index' %}
 
-        <li{% if mixture.url == item.key %} class="selected"{% endif %}>
-            <a href="{{ item.url }}">{{ global.site.navigation[item.key] }}</a>
-        </li>
+        <li><a href="{{ item.url }}"{% if mixture.url == item.key %} class="selected"{% endif %}>{{ global.site.navigation[item.key] }}</a></li>
 
     {% endunless %}{% endfor %}
     </ol>
