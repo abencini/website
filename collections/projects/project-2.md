@@ -1,6 +1,8 @@
 ---
 title: "Second Project"
+featured: true
 published: true
+date: 2014-01-02 00:00
 ---
 # Second Project
 
