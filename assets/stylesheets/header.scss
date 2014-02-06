@@ -7,6 +7,14 @@ header {
 
     nav {
       float: right;
+      margin-top: 2.2em;
+      font-family: $lucida-grande;
+      font-size: 13px; 
+      text-align: center;
+      a:link {color:$header-nav-link-colour;}  /* unvisited link */
+      a:visited {color:$header-nav-link-colour-visited;}  /* visited link */
+      a:hover {color:$header-nav-link-colour-hover;}  /* mouse over link */
+      a:active {color:$header-nav-link-colour-active;}  /* selected link */
 
       li {
         display: inline-block;
