@@ -11,6 +11,19 @@
       "team": {
         "title": "Team"
       }
+    },
+    "projects": {
+      "categories": {
+        "mobile": {
+          "title": "Mobile"
+        },
+        "web": {
+          "title": "Web"
+        },
+        "services": {
+          "title": "Servizi"
+        }
+      }
     }
   },
   "company": {
