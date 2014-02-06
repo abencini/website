@@ -2,9 +2,15 @@
   "site": {
     "title": "Apex&ndash;net",
     "navigation": {
-      "about": "Info",
-      "projects": "Progetti",
-      "team": "Team"
+      "about": {
+        "title": "Info"
+      },
+      "projects": {
+        "title": "Progetti"
+      },
+      "team": {
+        "title": "Team"
+      }
     }
   },
   "company": {
