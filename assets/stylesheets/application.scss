@@ -19,7 +19,12 @@
 
 // MARKER LINE --> /////////////////////////////////////////////////////////////
 
+// One Place to Rule Them All
 @import "variables";
 
+// Base Styling
+@import "main";
+
+// Layout Elements
 @import "header";
 @import "footer";
