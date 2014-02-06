@@ -1,14 +1,16 @@
 {
-  "title": "Apex&ndash;net",
+  "site": {
+    "title": "Apex&ndash;net",
+    "navigation": {
+      "about": "Info",
+      "projects": "Progetti",
+      "team": "Team"
+    }
+  },
   "company": {
     "name": "Apex&ndash;net S.r.l.",
     "email": "info@apexnet.it",
     "address": "Via Cerchia di San Giorgio, 145 47521 Cesena (FC)",
     "phone": "+39 0547 1902799"
-  },
-  "navigation": {
-    "about": "Info",
-    "projects": "Progetti",
-    "team": "Team"
   }
 }

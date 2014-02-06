@@ -4,7 +4,7 @@
 
     <head>
 
-        <title>{% block title %}{{ global.title }}{% if model.title %} &mdash; {{ model.title }}{% endif %}{% endblock %}</title>
+        <title>{% block title %}{{ global.site.title }}{% if model.page.title %} &mdash; {{ model.page.title }}{% endif %}{% endblock %}</title>
 
         <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 
