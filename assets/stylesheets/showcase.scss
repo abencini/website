@@ -1,0 +1,4 @@
+li.block {
+  @include span-columns(2);
+  @include omega(6n);
+}

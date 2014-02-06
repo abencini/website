@@ -1,0 +1,12 @@
+<ol>
+    {% for item in collection.items %}
+    <li class="block">
+
+        <a href="{% if item.link %}{{ item.link }}{% else %}{{ item.slug }}{% endif %}">
+            {{ "144" | placeholder | image_tag: item.title }}
+            <p>{{ item.title }}</p>
+        </a>
+
+    </li>
+    {% endfor %}
+</ol>
