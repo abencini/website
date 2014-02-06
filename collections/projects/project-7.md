@@ -1,9 +1,9 @@
 ---
-title: "Pellentesque Ridiculus"
+title: "Adipiscing"
 category: web
 published: true
 ---
-# Pellentesque Ridiculus
+# Adipiscing
 
 Donec ullamcorper nulla non metus auctor fringilla. Etiam porta sem malesuada magna mollis euismod. Maecenas faucibus mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
 

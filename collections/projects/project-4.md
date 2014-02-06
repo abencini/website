@@ -1,9 +1,9 @@
 ---
-title: "Pharetra Egestas Pellentesque"
+title: "Lorem Ultricies"
 category: mobile
 published: true
 ---
-# Pharetra Egestas Pellentesque
+# Lorem Ultricies
 
 Maecenas faucibus mollis interdum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Sed posuere consectetur est at lobortis. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
 
