@@ -2,29 +2,25 @@ header {
   background-color: $header-background-color;
   height: 5em;
 
-  div{
-    @include outer-container;
+  nav {
+    float: right;
+    margin-top: 2.2em;
+    font-family: $lucida-grande;
+    font-size: 13px; 
+    text-align: center;
+    a:link {color:$header-nav-link-colour;}  /* unvisited link */
+    a:visited {color:$header-nav-link-colour-visited;}  /* visited link */
+    a:hover {color:$header-nav-link-colour-hover;}  /* mouse over link */
+    a:active {color:$header-nav-link-colour-active;}  /* selected link */
 
-    nav {
-      float: right;
-      margin-top: 2.2em;
-      font-family: $lucida-grande;
-      font-size: 13px; 
-      text-align: center;
-      a:link {color:$header-nav-link-colour;}  /* unvisited link */
-      a:visited {color:$header-nav-link-colour-visited;}  /* visited link */
-      a:hover {color:$header-nav-link-colour-hover;}  /* mouse over link */
-      a:active {color:$header-nav-link-colour-active;}  /* selected link */
-
-      li {
-        display: inline-block;
-      }
+    li {
+      display: inline-block;
     }
   }
 }
 
 header img {
-    float: left;
-    margin-top: 1.1em;
-    margin-left: 1em;
+  float: left;
+  margin-top: 1.1em;
+  margin-left: 1em;
 }
