@@ -12,6 +12,10 @@ section {
 	  color: $title-text-color;
 	  font-weight: 500;
 	  margin-left: $default-margin-small;
-	  a:hover {color:$default-link-color;}
+	  p:hover { color:$default-link-color; }
 	} 
+}
+
+h4 {
+  color: $default-link-color;
 }
