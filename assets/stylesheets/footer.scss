@@ -1,0 +1,14 @@
+footer {
+  background-color: $footer-background-color;
+  color: $light-font-color;
+  a:link {color:$default-link-color;}
+  width: 100%;
+  height: $footer-height;
+  text-align: center;
+  line-height: 50px;
+  font-size: $footer-font-size;
+  p{
+  	display: inline;
+  	padding:em(5);
+  }
+}

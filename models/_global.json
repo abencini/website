@@ -1,5 +1,18 @@
 {
-  "title": "Apex&ndash;net",
+  "site": {
+    "title": "Apex&ndash;net",
+    "navigation": {
+      "about": {
+        "title": "Info"
+      },
+      "projects": {
+        "title": "Progetti"
+      },
+      "team": {
+        "title": "Team"
+      }
+    }
+  },
   "company": {
     "name": "Apex&ndash;net S.r.l.",
     "email": "info@apexnet.it",

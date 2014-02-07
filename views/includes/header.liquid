@@ -1,9 +1,9 @@
 <header>
+	
+	<div class="content">
+	    <a href="/"><img src="{{ "logo.svg" | asset_url }}" alt="Company Logo" class="logo" /></a>
 
-    <h1>Navigation</h1>
-
-    {{ "160" | placeholder | image_tag: 'Company Logo' }}
-
-    <nav>{{ mixture.sitemap | navigation: mixture.url, 'ol', 'li', 'selected', 'Home' }}</nav>
+	    {% include "navigation" %}
+	</div>
 
 </header>

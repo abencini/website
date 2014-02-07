@@ -1,5 +1,7 @@
 {
-  "title": "Team",
+  "page": {
+    "title": "Team"
+  },
   "roles": {
     "manager": {
       "slug": "manager",
