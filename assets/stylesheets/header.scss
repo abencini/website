@@ -1,30 +1,44 @@
+.highlight-text {
+  background-color: $header-nav-link-color;
+  padding-left: em(9);
+  padding-right: em(9);
+  padding-top: em(5);
+  padding-bottom: em(5);
+  
+  border-top-left-radius: em(5);
+  border-top-right-radius: em(5);
+  border-bottom-left-radius: em(5);
+  border-bottom-right-radius: em(5);
+}
+
 header {
   background-color: $header-background-color;
   height: 5em;
 
-  div{
-    @include outer-container;
+  nav {
+    float: right;
+    margin-top: 2.2em;
+    font-family: $lucida-grande;
+    font-size: em(13); 
+    text-align: center;
+    a:link, a:visited, a:hover, a:active {
+      color:$header-nav-link-color;
+    }  
 
-    nav {
-      float: right;
-      margin-top: 2.2em;
-      font-family: $lucida-grande;
-      font-size: 13px; 
-      text-align: center;
-      a:link {color:$header-nav-link-colour;}  /* unvisited link */
-      a:visited {color:$header-nav-link-colour-visited;}  /* visited link */
-      a:hover {color:$header-nav-link-colour-hover;}  /* mouse over link */
-      a:active {color:$header-nav-link-colour-active;}  /* selected link */
+    li {
+      display: inline-block;
+      padding-right: em(20);
 
-      li {
-        display: inline-block;
-      }
+      .selected {
+        color: white;
+        @extend .highlight-text;
+      } 
     }
   }
 }
 
 header img {
-    float: left;
-    margin-top: 1.1em;
-    margin-left: 1em;
+  float: left;
+  margin-top: 1.1em;
+  margin-left: 1em;
 }
