@@ -1,6 +1,8 @@
 ---
 title: "Third Project"
+featured: true
 published: true
+date: 2014-01-03 00:00
 ---
 # Third Project
 

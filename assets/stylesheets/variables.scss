@@ -18,6 +18,11 @@ $footer-font-size: 14px;
 
 // Global ---------------------------------------------------------------
 $dark-font-color: #333333;
-$light-font-color: #f2f2f2;
+$light-font-color: #aaaaaa;
 $default-link-color: #3abddb;
-$default-margin: 50px;
+$title-text-color: #777777;
+
+// Margin
+$default-margin-big: 70px;
+$default-margin-small: em(3);
+$image-margin: em(20);

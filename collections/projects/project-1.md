@@ -1,6 +1,8 @@
 ---
 title: "First Project"
+featured: true
 published: true
+date: 2014-01-01 00:00
 ---
 # First Project
 
