@@ -1,7 +1,9 @@
 ---
 title: "Sollicitudin Venenatis Magna Adipiscing"
 category: services
+featured: true
 published: true
+date: 2014-01-03 00:00
 ---
 # Sollicitudin Venenatis Magna Adipiscing
 

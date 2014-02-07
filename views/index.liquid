@@ -1,7 +1,17 @@
 {% block content %}
 
-<h1>{{ model.page.title }}</h1>
+<section id="projects">
+    <h1>{{ model.sections["projects"].title }}</h1>
+    {% collection "projects" query 'featured=true' order desc %}
+        {% include "showcase" %}
+    {% endcollection %}
+</section>
 
-{{ 3 | lorem_ipsum: 'p' }}
+<section id="clients">
+    <h1>{{ model.sections["clients"].title }}</h1>
+    {% collection "clients" query 'featured=true' order desc %}
+        {% include "showcase" %}
+    {% endcollection %}
+</section>
 
 {% endblock %}

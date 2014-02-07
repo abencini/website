@@ -1,7 +1,9 @@
 ---
 title: "Pellentesque Ridiculus"
 category: web
+featured: true
 published: true
+date: 2014-01-01 00:00
 ---
 # Pellentesque Ridiculus
 

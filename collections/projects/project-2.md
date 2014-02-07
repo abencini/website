@@ -1,7 +1,9 @@
 ---
 title: "Pharetra Egestas Pellentesque"
 category: mobile
+featured: true
 published: true
+date: 2014-01-02 00:00
 ---
 # Pharetra Egestas Pellentesque
 
