@@ -3,21 +3,21 @@
 <h1>{{ model.page.title }}</h1>
 
 <section id="web">
-    <h2>{{ global.site.projects.categories["web"].title }}</h2>
+    <h4>{{ global.site.projects.categories["web"].title }}</h4>
     {% collection "projects" query 'category=web' order desc %}
         {% include "showcase" %}
     {% endcollection %}
 </section>
 
 <section id="mobile">
-    <h2>{{ global.site.projects.categories["mobile"].title }}</h2>
+    <h4>{{ global.site.projects.categories["mobile"].title }}</h4>
     {% collection "projects" query 'category=mobile' order desc %}
         {% include "showcase" %}
     {% endcollection %}
 </section>
 
 <section id="services">
-    <h2>{{ global.site.projects.categories["services"].title }}</h2>
+    <h4>{{ global.site.projects.categories["services"].title }}</h4>
     {% collection "projects" query 'category=services' order desc %}
         {% include "showcase" %}
     {% endcollection %}
