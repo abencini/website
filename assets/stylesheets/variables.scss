@@ -1,11 +1,24 @@
+// Global ---------------------------------------------------------------
+$dark-font-color: #333333;
+$light-font-color: #aaaaaa;
+$default-link-color: #3abddb;
+$title-text-color: $dark-font-color;
+
+// Margin
+$default-margin-big: em(40);
+$default-margin-medium: em(15);
+$default-margin-small: em(3);
+$image-margin: em(10);
+
+
 // Header ---------------------------------------------------------------
 $header-background-color: #3abddb;
 
 // Nav links
-$header-nav-link-color: #333333;
-$header-nav-link-color-visited: #333333;
-$header-nav-link-color-hover: #333333;
-$header-nav-link-color-active: #333333;
+$header-nav-link-color: $dark-font-color;
+$header-nav-link-color-visited: $dark-font-color;
+$header-nav-link-color-hover: $dark-font-color;
+$header-nav-link-color-active: $dark-font-color;
 
 
 // Footer ---------------------------------------------------------------
@@ -14,16 +27,3 @@ $footer-height: 50px;
 
 //Fonts
 $footer-font-size: 14px;
-
-
-// Global ---------------------------------------------------------------
-$dark-font-color: #333333;
-$light-font-color: #aaaaaa;
-$default-link-color: #3abddb;
-$title-text-color: #777777;
-
-// Margin
-$default-margin-big: em(70);
-$default-margin-medium: em(15);
-$default-margin-small: em(3);
-$image-margin: em(20);
