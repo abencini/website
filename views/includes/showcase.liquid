@@ -1,14 +1,18 @@
 <ol>
     {% for item in collection.items %}
     <li class="block">
-    	
-    	<div class="title-text">
-	        <a href="{% if item.link %}{{ item.link }}{% else %}{{ item.slug }}{% endif %}">
-	            {{ "300x200" | placeholder | image_tag: item.title }}
-	            <p>{{ item.title }}</p>
-	        </a>
-	    </div>
-	    
+        {% if item.link %}
+            {% assign url = item.link %}
+        {% else %}
+            {% assign url = "portfolio" | append: item.slug %}
+        {% endif %}
+
+        <div class="title-text">
+            <a href="{{ url }}">
+                {{ "300x200" | placeholder | image_tag: item.title }}
+                <p>{{ item.title }}</p>
+            </a>
+        </div>
     </li>
     {% endfor %}
 </ol>

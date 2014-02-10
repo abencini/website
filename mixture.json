@@ -13,6 +13,13 @@
   "projectDescription": "http://apexnet.it/",
   "projectName": "Apex-net Web Site",
   "publishedId": null,
+  "routes": [
+    {
+      "redirect": null,
+      "route": "portfolio/projects/:project",
+      "template": "portfolio/project"
+    }
+  ],
   "serverHostname": null,
   "serverPort": null,
   "simpleModePartnerServer": null,

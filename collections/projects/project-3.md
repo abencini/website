@@ -5,8 +5,6 @@ featured: true
 published: true
 date: 2014-01-03 00:00
 ---
-# Sollicitudin Venenatis Magna Adipiscing
-
 Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui. Nullam id dolor id nibh ultricies vehicula ut id elit.
 
 Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper.
