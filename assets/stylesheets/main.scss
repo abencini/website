@@ -7,12 +7,11 @@ section {
   margin-bottom: $default-margin-big;
 }
 
-.title-text {
+.title {
 	p {
 	  color: $title-text-color;
 	  font-weight: 400;
 	  margin-left: $default-margin-small;
-	  p:hover { color:$default-link-color; }
 	} 
 }
 

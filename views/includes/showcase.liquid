@@ -7,12 +7,11 @@
             {% assign url = "portfolio" | append: item.slug %}
         {% endif %}
 
-        <div class="title-text">
-            <a href="{{ url }}">
-                {{ "300x200" | placeholder | image_tag: item.title }}
-                <p>{{ item.title }}</p>
-            </a>
-        </div>
+        <a class="title" href="{{ url }}">
+            {{ "300x200" | placeholder | image_tag: item.title }}
+            <p>{{ item.title }}</p>
+        </a>
+        
     </li>
     {% endfor %}
 </ol>
