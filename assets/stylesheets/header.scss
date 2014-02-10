@@ -17,8 +17,9 @@ header {
 
   nav {
     float: right;
-    margin-top: 2.2em;
-    font-size: em(14); 
+    margin-top: 2em;
+    font-size: em(14);
+    font-weight: 400;
     text-align: center;
     a:link, a:visited, a:hover, a:active {
       color:$header-nav-link-color;
@@ -26,7 +27,7 @@ header {
 
     li {
       display: inline-block;
-      margin-right: em(20);
+      margin-left: em(20);
 
       .selected {
         color: white;
