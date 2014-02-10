@@ -34,7 +34,7 @@ hr {
 .project-view {
   hr {
     margin-top: $default-margin-small;
-    margin-bottom: em(10);
+    margin-bottom: $default-margin-small;
   }
 
   article {
