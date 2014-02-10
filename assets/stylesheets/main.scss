@@ -7,14 +7,6 @@ section {
   margin-bottom: $default-margin-big;
 }
 
-.title {
-	p {
-	  color: $title-text-color;
-	  font-weight: 400;
-	  margin-left: $default-margin-small;
-	} 
-}
-
 h2 {
   margin-top: $default-margin-medium;
   margin-bottom: $default-margin-small;
@@ -29,4 +21,20 @@ h3 {
 hr {
   margin-top: $default-margin-small;
   margin-bottom: $default-margin-medium;
+}
+
+.title {
+  p {
+    color: $title-text-color;
+    font-weight: 400;
+    margin-left: $default-margin-small;
+  } 
+}
+
+.project-view {
+  hr {
+    margin-top: $default-margin-small;
+    margin-bottom: em(10);
+  }
+
 }
