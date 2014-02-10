@@ -4,7 +4,7 @@
     {% assign project = collection.items.first %}
 {% endcollection %}
 	
-	<section class="project-view">
+	<section class="alternate-view">
 		<h2>{{ project.title }}</h2> <hr>
 		{{ "1088x400" | placeholder | image_tag: project.title }}
 		<article> {{ project.body }} </article>
