@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-  color: $header-background-color;
+  color: $default-highlight-color;
   font-weight: 200;
 }
 
@@ -33,7 +33,7 @@ hr {
   } 
 }
 
-.project-view {
+.alternate-view {
   hr {
     margin-top: $default-margin-small;
     margin-bottom: $default-margin-small;
@@ -42,4 +42,21 @@ hr {
   article {
     margin-top: $default-margin-medium;
   }
+
+  p {
+    font-size: $default-font-medium;
+    font-color: $light-font-color;
+  }
 }
+
+// .about {
+//   p {
+//     font-size: $default-font-medium;
+//     font-color: $light-font-color;
+//   }
+
+//   hr {
+//     margin-top: $default-margin-small;
+//     margin-bottom: $default-margin-small;
+//   }
+// }

@@ -3,8 +3,10 @@
 {% collection "about" by 1 %}{% assign about = collection.items.first %}{% endcollection %}
 
 <div class="content">
-	<h1>{{ model.page.title }}</h1>
-	{{ about.body }}
+	<section class="alternate-view">
+		<h2>{{ model.page.title }}</h2> <hr>
+	 	{{ about.body }} 
+	 </section>
 </div>
 
 {% endblock %}
