@@ -1,17 +1,20 @@
 {
   "site": {
     "title": "Apex&ndash;net",
-    "navigation": {
-      "about": {
+    "navigation": [
+      {
+        "key": "about",
         "title": "Info"
       },
-      "projects": {
+      {
+        "key": "projects",
         "title": "Progetti"
       },
-      "team": {
+      {
+        "key": "team",
         "title": "Team"
       }
-    },
+    ],
     "projects": {
       "categories": {
         "mobile": {
