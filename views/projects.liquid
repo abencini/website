@@ -2,23 +2,24 @@
 
 <div class="content">
     <h2>{{ model.page.title }}</h2>
+    <hr>
 
     <section id="web">
-        <h5>{{ global.site.projects.categories["web"].title }}</h5>
+        <h3>{{ global.site.projects.categories["web"].title }}</h3>
         {% collection "projects" query 'category=web' order desc %}
             {% include "showcase" %}
         {% endcollection %}
     </section>
 
     <section id="mobile">
-        <h5>{{ global.site.projects.categories["mobile"].title }}</h5>
+        <h3>{{ global.site.projects.categories["mobile"].title }}</h3>
         {% collection "projects" query 'category=mobile' order desc %}
             {% include "showcase" %}
         {% endcollection %}
     </section>
 
     <section id="services">
-        <h5>{{ global.site.projects.categories["services"].title }}</h5>
+        <h3>{{ global.site.projects.categories["services"].title }}</h3>
         {% collection "projects" query 'category=services' order desc %}
             {% include "showcase" %}
         {% endcollection %}

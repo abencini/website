@@ -22,7 +22,12 @@ h2 {
   font-weight: 200;
 }
 
-h5 {
+h3 {
   color: $header-background-color;
-  font-weight: 400;
+  font-weight: 200;
+}
+
+hr {
+  margin-top: $default-margin-small;
+  margin-bottom: $default-margin-medium;
 }
