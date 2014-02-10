@@ -1,11 +1,17 @@
 {% block content %}
 
-{% collection "projects" by 1 query 'slug=/projects/{{ mixture.route.project }}' %}
-    {% assign project = collection.items.first %}
-{% endcollection %}
+	<div class="content">
+		{% collection "projects" by 1 query 'slug=/projects/{{ mixture.route.project }}' %}
+		    {% assign project = collection.items.first %}
+		{% endcollection %}
 
-<h1>{{ project.title }}</h1>
-{{ "600x400" | placeholder | image_tag: project.title }}
-{{ project.body }}
+		<section class="project-view">
+			<h2>{{ project.title }}</h2>
+			<hr>
+			{{ "1088x400" | placeholder | image_tag: project.title }}
+			{{ project.body }}
+		</section>
+
+	</div>
 
 {% endblock %}
