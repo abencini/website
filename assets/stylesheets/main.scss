@@ -10,17 +10,19 @@ section {
 .title-text {
 	p {
 	  color: $title-text-color;
-	  font-weight: 500;
+	  font-weight: 400;
 	  margin-left: $default-margin-small;
 	  p:hover { color:$default-link-color; }
 	} 
 }
 
-h4 {
-  color: $default-link-color;
-}
-
-h1 {
+h2 {
   margin-top: $default-margin-medium;
   margin-bottom: $default-margin-small;
+  font-weight: 200;
+}
+
+h5 {
+  color: $header-background-color;
+  font-weight: 400;
 }
