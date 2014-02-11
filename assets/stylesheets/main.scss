@@ -50,17 +50,14 @@ hr {
   p {
     font-size: $default-font-medium;
     font-color: $light-font-color;
+    font-weight: 200;
   }
 }
 
-// .about {
-//   p {
-//     font-size: $default-font-medium;
-//     font-color: $light-font-color;
-//   }
+.about {
+  @extend .alternate-view;
 
-//   hr {
-//     margin-top: $default-margin-small;
-//     margin-bottom: $default-margin-small;
-//   }
-// }
+  p {
+    line-height: 160%;
+  }
+}
