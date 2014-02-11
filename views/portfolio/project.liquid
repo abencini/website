@@ -3,7 +3,7 @@
 {% collection "projects" by 1 query 'slug=/projects/{{ mixture.route.project }}' %}
     {% assign project = collection.items.first %}
 {% endcollection %}
-	
+
 	<section class="alternate-view">
 		<h2>{{ project.title }}</h2> <hr>
 		{{ project.slug | append: '/banner.png' | asset_url | image_tag: project.title }}
