@@ -1,7 +1,10 @@
 // Global ---------------------------------------------------------------
+$default-highlight-color: #3abddb;
+$default-link-color: #3abddb;
+
 $dark-font-color: #333333;
 $light-font-color: #aaaaaa;
-$default-link-color: #3abddb;
+
 $title-text-color: $dark-font-color;
 
 // Margin
@@ -10,9 +13,11 @@ $default-margin-medium: em(15);
 $default-margin-small: em(4);
 $image-margin: em(10);
 
+$default-font-small: em(14);
+$default-font-medium: em(16);
+$default-font-large: em(18);
 
 // Header ---------------------------------------------------------------
-$header-background-color: #3abddb;
 
 // Nav links
 $header-nav-link-color: $dark-font-color;
@@ -24,6 +29,3 @@ $header-nav-link-color-active: $dark-font-color;
 // Footer ---------------------------------------------------------------
 $footer-background-color: #333333;
 $footer-height: 50px;
-
-//Fonts
-$footer-font-size: 14px;

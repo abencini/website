@@ -12,14 +12,14 @@
 }
 
 header {
-  background-color: $header-background-color;
+  background-color: $default-highlight-color;
   height: 5em;
 
   nav {
     float: right;
     margin-top: 2em;
-    font-size: em(14);
-    font-weight: 400;
+    font-size: $default-font-small;
+    font-weight: 400; 
     text-align: center;
     a:link, a:visited, a:hover, a:active {
       color:$header-nav-link-color;

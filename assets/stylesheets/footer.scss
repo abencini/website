@@ -1,4 +1,6 @@
 footer {
+  position: fixed;
+  bottom:0;
   margin-top: em(100);
   background-color: $footer-background-color;
   color: $light-font-color;
@@ -7,7 +9,7 @@ footer {
   height: $footer-height;
   text-align: center;
   line-height: 50px;
-  font-size: $footer-font-size;
+  font-size: $default-font-small;
   p{
   	display: inline;
   	padding:em(5);

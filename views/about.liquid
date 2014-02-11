@@ -1,9 +1,12 @@
 {% block content %}
 
-<div class="content">
-	<h1>{{ model.page.title }}</h1>
+{% collection "about" by 1 %}{% assign about = collection.items.first %}{% endcollection %}
 
-	{{ 5 | lorem_ipsum: 'p' }}
+<div class="content">
+	<section class="alternate-view">
+		<h2>{{ model.page.title }}</h2> <hr>
+	 	{{ about.body }} 
+	 </section>
 </div>
 
 {% endblock %}
