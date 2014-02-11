@@ -1,8 +1,8 @@
 <ol>
-    {% for person in collection.items %}
+    {% for item in collection.items %}
     <li class="six-columns">
-        {{ "200x200" | placeholder | image_tag: person.name }}
-        <p>{{ person.name }}</p>
+        {{ item.slug | append: ".png" | asset_url | image_tag }}
+        <p>{{ item.name }}</p>
     </li>
     {% endfor %}
 </ol>
