@@ -2,26 +2,8 @@
 
 <h1>{{ model.page.title }}</h1>
 
-{{ 1 | lorem_ipsum: 'p' }}
-
-<h2>{{ model.roles.manager.title }}</h2>
-
-<ul>
-{% collection "team" query 'role={{ model.roles.manager.slug }}' %}
-    {% for person in collection.items %}
-    <li>{{ person.name }}</li>
-    {% endfor %}
+{% collection "team" order desc %}
+    {% include "badges" %}
 {% endcollection %}
-</ul>
-
-<h2>{{ model.roles.developer.title }}</h2>
-
-<ul>
-{% collection "team" query 'role={{ model.roles.developer.slug }}' %}
-    {% for person in collection.items %}
-    <li>{{ person.name }}</li>
-    {% endfor %}
-{% endcollection %}
-</ul>
 
 {% endblock %}
