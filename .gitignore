@@ -2,10 +2,6 @@
 # Project specific rules
 #
 
-# TODO: this is a temporary ignore, because of a bug in Mixture.app
-# (Ref.: http://support.mixture.io/discussions/suggestions/505-move-guid-for-github-pages-out-of-the-mixturejson-file)
-/mixture.json
-
 # Ignore GitHub settings file (each developer should have a separate local
 # copy of it)
 /.githubsettings
