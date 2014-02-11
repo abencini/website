@@ -6,7 +6,7 @@
 	
 	<section class="alternate-view">
 		<h2>{{ project.title }}</h2> <hr>
-		{{ "1088x400" | placeholder | image_tag: project.title }}
+		{{ project.slug | append: '/banner.png' | asset_url | image_tag: project.title }}
 		<article> {{ project.body }} </article>
 	</section>
 
