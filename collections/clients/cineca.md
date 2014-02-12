@@ -1,6 +1,5 @@
 ---
-title: "Cineca"
-link: "http://cineca.it/"
+link: "http://www.cineca.it/"
 featured: true
 published: true
 ---

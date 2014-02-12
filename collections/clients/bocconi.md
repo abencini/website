@@ -1,6 +1,5 @@
 ---
-title: "Bocconi"
-link: "http://unibocconi.it/"
+link: "http://www.unibocconi.it/"
 featured: true
 published: true
 ---

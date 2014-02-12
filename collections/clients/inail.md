@@ -1,6 +1,5 @@
 ---
-title: "Inial"
-link: "http://inail.it/"
+link: "http://www.inail.it/"
 featured: true
 published: true
 ---

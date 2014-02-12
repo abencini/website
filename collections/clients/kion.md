@@ -1,6 +1,5 @@
 ---
-title: "Kion"
-link: "http://kion.it/"
+link: "http://www.kion.it/"
 featured: true
 published: true
 ---
