@@ -58,12 +58,6 @@ hr {
     border-width:1px;
     border-color: #d2d2d2;
   }
-
-  img {
-    border-style:solid;
-    border-width:1px;
-    border-color: #d2d2d2;
-  }
 }
 
 .about {
@@ -127,4 +121,31 @@ hr {
     left: 0;
     width: 100% !important;
     height: 100% !important;
+}
+
+.team {
+  hr {
+    margin-top: em(40);
+    margin-bottom: em(40);
+    width: 20%;
+    margin-left: 40%;
+  }
+
+  h2 {
+    text-align: center;
+    margin-top: em(20);
+  }
+
+  p {
+    font-size: em(18);
+    font-color: $light-font-color;
+    font-weight: 200;
+    text-align: center;
+    padding-top: $default-font-small;
+  }
+
+  li {
+    margin-top: 100px;
+    margin-bottom: $default-margin-big;
+  }
 }
