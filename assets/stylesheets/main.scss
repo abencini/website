@@ -1,4 +1,3 @@
-
 html, body {
   height: 100%;
 }
@@ -6,6 +5,7 @@ html, body {
   @include outer-container;
   padding-left: $default-margin-small;
   padding-right: $default-margin-small;
+  padding-bottom: 100px;
 }
 
 section {
@@ -34,7 +34,7 @@ hr {
     color: $title-text-color;
     font-weight: 400;
     margin-left: $default-margin-small;
-  } 
+  }
 }
 
 .alternate-view {
@@ -50,14 +50,75 @@ hr {
   p {
     font-size: $default-font-medium;
     font-color: $light-font-color;
-    font-weight: 200;
+    font-weight: 400;
+  }
+
+  img {
+    border-style:solid;
+    border-width:1px;
+    border-color: #d2d2d2;
   }
 }
 
 .about {
   @extend .alternate-view;
-
   p {
     line-height: 160%;
   }
+}
+
+.contact {
+  hr {
+    margin-top: em(50);
+    margin-bottom: em(50);
+    width: 10%;
+    margin-left: 45%;
+  }
+}
+
+.contact-address {
+  margin-bottom: $default-margin-big;
+
+  h2 {
+  margin-top: em(20);
+  margin-bottom: em(10);
+  font-weight: 200;
+  text-align: center;
+  }
+
+  p {
+    font-size: em(15);
+    font-color: $light-font-color;
+    font-weight: 200;
+    line-height: 10px;
+    text-align: center;
+  }
+}
+
+.form {
+  @extend .alternate-view;
+
+  width: 60%;
+  margin-left: 20%;
+
+  input.button {
+    float: center;
+
+  }
+
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 35%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    margin-top: $default-margin-medium;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
