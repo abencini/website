@@ -4,15 +4,15 @@
     "navigation": [
       {
         "key": "about",
-        "title": "Info"
+        "title": "About"
       },
       {
         "key": "contact",
-        "title": "Contattaci"
+        "title": "Contact"
       },
       {
         "key": "projects",
-        "title": "Progetti"
+        "title": "Projects"
       },
       {
         "key": "team",
@@ -28,7 +28,7 @@
           "title": "Web"
         },
         "services": {
-          "title": "Servizi"
+          "title": "Services"
         }
       }
     }

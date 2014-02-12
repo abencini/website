@@ -1,10 +1,8 @@
 {% block content %}
 
 <section class="contact">
-   {% comment %}<h2>Apex-net S.r.l</h2>{% endcomment %}
-
     <div class="contact-address">
-        <h2>Apex-net S.r.l</h2>
+        <h2>{{ global.company.name }}</h2>
         <p>{{ global.company.address }}</p>
         <p>{{ global.company.phone }}</p>
         <p><a href="mailto:{{global.company.email}}">{{global.company.email}}</a></p>
