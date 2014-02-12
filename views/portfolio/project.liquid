@@ -3,10 +3,10 @@
 {% collection "projects" by 1 query 'slug=/projects/{{ mixture.route.project }}' %}
     {% assign project = collection.items.first %}
 {% endcollection %}
-	
+
 	<section class="alternate-view">
-		<h2>{{ project.title }}</h2>
-		{{ "1088x400" | placeholder | image_tag: project.title }}
+		<h2>{{ project.title }}</h2> 
+		{{ project.slug | append: '/banner.png' | asset_url | image_tag: project.title }}
 		<article> {{ project.body }} </article>
 	</section>
 
