@@ -1,11 +1,19 @@
 {% block content %}
 
 <section class="contact">
-    <h2>{{ model.page.title }}</h2>
+   {% comment %}<h2>Apex-net S.r.l</h2>{% endcomment %}
 
-    {{ 1 | lorem_ipsum: 'p' }} 
+    <div class="contact-address">
+        <h2>Apex-net S.r.l</h2>
+        <p>{{ global.company.address }}</p>
+        <p>{{ global.company.phone }}</p>
+        <p><a href="mailto:{{global.company.email}}">{{global.company.email}}</a></p>
+    </div>
 
-    <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Apex-Net+Srl,+Via+Cerchia+di+San+Giorgio,+Cesena,+Forl%C3%AC-Cesena,+Italy&amp;aq=1&amp;oq=apex&amp;sll=44.214325,12.165813&amp;sspn=0.145551,0.178356&amp;ie=UTF8&amp;hq=&amp;hnear=&amp;t=m&amp;iwloc=A&amp;ll=44.158601,12.240883&amp;spn=0.006295,0.006295&amp;output=embed"></iframe>
+    <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2862.35464489187!2d12.241006899999991!3d44.158549449999974!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132ca5267b653f05%3A0xaaaf9566589eb45f!2sApex-Net+Srl!5e0!3m2!1sen!2sit!4v1392198046998" width="500" height="300" frameborder="0" style="border:0"></iframe>
+
+    </div>
 
     <hr>
 
