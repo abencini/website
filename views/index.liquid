@@ -1,17 +1,21 @@
 {% block content %}
 
 <section id="projects">
-    <h2>{{ model.sections["projects"].title }}</h2>
-    {% collection "projects" query 'featured=true' order desc %}
-        {% include "showcase" %}
-    {% endcollection %}
+    <div class="title">
+	    <h2>{{ model.sections["projects"].title }}</h2><hr>
+	    {% collection "projects" query 'featured=true' order desc %}
+	        {% include "showcase" %}
+	    {% endcollection %}
+	<div>
 </section>
 
 <section id="clients">
-    <h2>{{ model.sections["clients"].title }}</h2>
-    {% collection "clients" query 'featured=true' order desc %}
-        {% include "showcase" %}
-    {% endcollection %}
+    <div class="title">
+	    <h2>{{ model.sections["clients"].title }}</h2><hr>
+	    {% collection "clients" query 'featured=true' order desc %}
+	        {% include "showcase" %}
+	    {% endcollection %}
+    <div>
 </section>
 
 {% endblock %}
