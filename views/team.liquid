@@ -2,7 +2,7 @@
 
 <h1>{{ model.page.title }}</h1>
 
-{% collection "team" order desc %}
+{% collection "team" order asc %}
     {% include "badges" %}
 {% endcollection %}
 
