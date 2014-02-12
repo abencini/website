@@ -1,8 +1,9 @@
 {% block content %}
+
 	<div class="content">
 		<section class="team">
 			<h2>{{ model.page.title }}</h2><hr>
-			{% collection "team" order desc %}
+			{% collection "team" order asc %}
 			    {% include "badges" %}
 			{% endcollection %}
 		</section>
