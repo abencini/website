@@ -8,7 +8,7 @@
         {% endif %}
 
         <a class="title" href="{{ url }}">
-            {{ "300x200" | placeholder | image_tag: item.title }}
+            {{ item.slug | append: '/thumbnail.png' | asset_url | image_tag: item.title }}
             <p>{{ item.title }}</p>
         </a>
         
