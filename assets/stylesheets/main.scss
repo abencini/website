@@ -39,14 +39,6 @@ h3 {
   font-weight: 200;
 }
 
-.title {
-  p {
-    color: $title-text-color;
-    font-weight: 400;
-    margin-left: $default-margin-small;
-  }
-}
-
 .alternate-view {
 
   h2 {
@@ -76,6 +68,23 @@ h3 {
     border-color: #d2d2d2;
   }
 }
+
+.title {
+  p {
+    font-size: em(18);
+    font-weight: 200;
+    color: $title-text-color;
+    text-align: center;
+    padding-top: $default-font-small;
+    margin-left: $default-margin-small;
+  }
+
+  li {
+    margin-bottom: $default-margin-big;
+  }
+}
+
+// Contact Page
 
 .contact-address {
   margin-bottom: $default-margin-big;
@@ -126,18 +135,7 @@ h3 {
     height: 100% !important;
 }
 
-.title {
-  p {
-    font-size: em(18);
-    font-color: $light-font-color;
-    text-align: center;
-    padding-top: $default-font-small;
-  }
-
-  li {
-    margin-bottom: $default-margin-big;
-  }
-}
+// About Page
 
 .about {
   p {
