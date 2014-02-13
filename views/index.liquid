@@ -2,7 +2,7 @@
 
 <section id="projects">
     <div class="title">
-	    <h2>{{ model.sections["projects"].title }}</h2><hr>
+	    <h2>{{ model.sections["projects"].title }}</h2>
 	    {% collection "projects" query 'featured=true' order desc %}
 	        {% include "showcase" %}
 	    {% endcollection %}
@@ -11,7 +11,7 @@
 
 <section id="clients">
     <div class="title">
-	    <h2>{{ model.sections["clients"].title }}</h2><hr>
+	    <h2>{{ model.sections["clients"].title }}</h2>
 	    {% collection "clients" query 'featured=true' order desc %}
 	        {% include "showcase" %}
 	    {% endcollection %}
