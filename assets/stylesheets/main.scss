@@ -77,14 +77,6 @@ h3 {
   }
 }
 
-.about {
-  @extend .alternate-view;
-  p {
-    line-height: 160%;
-  }
-}
-
-
 .contact-address {
   margin-bottom: $default-margin-big;
 
@@ -146,3 +138,14 @@ h3 {
     margin-bottom: $default-margin-big;
   }
 }
+
+.about {
+  p {
+    line-height: 160%;
+    font-size: $default-font-big;
+    font-color: $light-font-color;
+    font-weight: 200;
+    text-align: center;
+  }
+}
+
