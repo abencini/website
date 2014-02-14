@@ -7,6 +7,11 @@
 	<section class="alternate-view">
 		<h2>{{ project.title }}</h2> 
 		{{ project.slug | append: '/banner.png' | asset_url | image_tag: project.title }}
+
+    {% if project.itunes-store %}
+    <p><a href="{{ project.itunes-store }}">Download on the App Store</a></p>
+    {% endif %}
+
 		<article> {{ project.body }} </article>
 	</section>
 
