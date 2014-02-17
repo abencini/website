@@ -9,7 +9,7 @@
 
         <a class="title" href="{{ url }}">
             {{ item.slug | append: '/thumbnail.png' | asset_url | image_tag: item.title }}
-            <p>{{ item.title }}</p>
+            {% if item.title %}<p>{{ item.title }}</p>{% endif %}
         </a>
         
     </li>
