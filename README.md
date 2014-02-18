@@ -30,7 +30,7 @@ It is mostly sufficient that you know the [GitHub Flow in the Browser](https://g
 </ol>
 
 | :information_source: Changes you did will not be visible on the website unless a developer or a maintainer makes them publicly available. |
-| --- |
+|:--- |
 
 ## As a developer or a maintainer
 
@@ -75,7 +75,7 @@ Collection files (i.e. files with the `*.md` extension inside the `collections/`
 If you're not familiar with [Markdown](http://daringfireball.net/projects/markdown/), you should go and read about it.
 
 | :warning: Whenever it is possible, we suggest using only Markdown syntax in collections. <span style="color: red;">Avoid writing HTML if not absolutely necessary!</span> |
-| --- |
+|:--- |
 
 ## Collections
 
