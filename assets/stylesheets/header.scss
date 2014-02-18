@@ -1,10 +1,11 @@
 .highlight-text {
-  background-color: $header-nav-link-color;
   padding-left: em(9);
   padding-right: em(9);
   padding-top: em(5);
   padding-bottom: em(5);
   
+  border: 2px solid;
+
   border-top-left-radius: em(5);
   border-top-right-radius: em(5);
   border-bottom-left-radius: em(5);
@@ -17,9 +18,9 @@ header {
 
   nav {
     float: right;
-    margin-top: 2em;
+    margin-top: 1.8em;
     font-size: $default-font-small;
-    font-weight: 400; 
+    font-weight: 500; 
     text-align: center;
     a:link, a:visited, a:hover, a:active {
       color:$header-nav-link-color;
