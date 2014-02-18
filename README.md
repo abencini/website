@@ -179,3 +179,14 @@ A file `*.md` per team member that contain some metadata.
 | date | Date & time | Ideally this is the date when the person was hired for the first time ever, but in reality you can put any random date. People are ordered according to this data on the team page. Formatted as `YYYY-MM-DD HH:MM`. |
 
 **Contents:** No text is expected at this point.
+
+# Publish
+
+Developers and maintainers can update (by publishing) the website using Mixture app.
+
+Do the following:
+
+1. Open Apex-net website in Mixture app
+2. Go to "Tools" and click on "Convert to HTML"
+3. Go to "Tools" and click on "GitHub Pages"
+4. Party! :wink:
