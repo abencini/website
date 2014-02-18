@@ -2,7 +2,7 @@
 
 	<div class="content">
 		<section class="title">
-			<h2>{{ model.page.title }}</h2><hr>
+			<h2>{{ model.page.title }}</h2>
 			{% collection "team" order asc %}
 			    {% include "badges" %}
 			{% endcollection %}

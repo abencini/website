@@ -3,10 +3,6 @@
     "title": "Apex&ndash;net",
     "navigation": [
       {
-        "key": "about",
-        "title": "About"
-      },
-      {
         "key": "projects",
         "title": "Projects"
       },
