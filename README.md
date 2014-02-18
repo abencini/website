@@ -29,8 +29,8 @@ It is mostly sufficient that you know the [GitHub Flow in the Browser](https://g
   <li>Merge your branch <span style="color: lightgray;">into <code>master</code> branch</span></li>
 </ol>
 
-| :information_source: | Changes you did will not be visible on the website unless a developer or a maintainer makes them publicly available. |
-| --- |:--- |
+| :information_source: Changes you did will not be visible on the website unless a developer or a maintainer makes them publicly available. |
+| --- |
 
 ## As a developer or a maintainer
 
@@ -74,8 +74,8 @@ Collection files (i.e. files with the `*.md` extension inside the `collections/`
 
 If you're not familiar with [Markdown](http://daringfireball.net/projects/markdown/), you should go and read about it.
 
-| :warning: | Whenever it is possible, we suggest using only Markdown syntax in collections. <span style="color: red;">Avoid writing HTML if not absolutely necessary!</span> |
-| --- |:--- |
+| :warning: Whenever it is possible, we suggest using only Markdown syntax in collections. <span style="color: red;">Avoid writing HTML if not absolutely necessary!</span> |
+| --- |
 
 ## Collections
 
@@ -95,7 +95,12 @@ list_of_things: [ "one", "two", "three" ]
 ---
 # This is a title
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec ullamcorper nulla non metus auctor fringilla.
+Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Nullam quis risus
+eget urna mollis ornare vel eu leo. Duis mollis, est non commodo luctus, nisi
+erat porttitor ligula, eget lacinia odio sem nec elit. Donec id elit non mi
+porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum
+faucibus dolor auctor. Praesent commodo cursus magna, vel scelerisque nisl
+consectetur et. Donec ullamcorper nulla non metus auctor fringilla.
 
 ## This is a subtitle
 
@@ -172,3 +177,5 @@ A file `*.md` per team member that contain some metadata.
 | role | Either “founder”, “manager”, “sysadmin”, or “developer” | Role that the person has inside the company. |
 | published | “true” or “false” | Whether the person is publicly available on any page of the website. |
 | date | Date & time | Ideally this is the date when the person was hired for the first time ever, but in reality you can put any random date. People are ordered according to this data on the team page. Formatted as `YYYY-MM-DD HH:MM`. |
+
+**Contents:** No text is expected at this point.
