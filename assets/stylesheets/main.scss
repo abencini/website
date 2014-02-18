@@ -8,6 +8,27 @@ html, body {
   padding-bottom: 100px;
 }
 
+.banner {
+  width: 100%;
+  background-image:url('https://d262ilb51hltx0.cloudfront.net/fit/c/1600/1280/gradv/29/81/60/darken/25/1*jdRb-HndWS3PrA9acE9laA.jpeg');
+  background-position: center;
+  height: 500px;
+
+  h1 {
+    color: white;
+    text-align: center;
+    line-height: 420px;
+    vertical-align: middle;
+
+    font-size: 70px;
+    
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
 section {
   @extend .content;
 }
