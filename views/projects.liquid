@@ -1,24 +1,26 @@
 {% block content %}
 
-<div class="content title">
-    <h2>{{ model.page.title }}</h2>
-
-    <section id="web">
-        <h3>{{ global.site.projects.categories["web"].title }}</h3>
+<div>
+    <section class="content title" id="web">
+        <h2>{{ global.site.projects.categories["web"].title }}</h2>
         {% collection "projects" query 'category=web' order desc %}
             {% include "showcase" %}
         {% endcollection %}
     </section>
+<div>
 
-    <section id="mobile">
-        <h3>{{ global.site.projects.categories["mobile"].title }}</h3>
+<div class="section-background">
+    <section class="content title" id="mobile">
+        <h2>{{ global.site.projects.categories["mobile"].title }}</h2>
         {% collection "projects" query 'category=mobile' order desc %}
             {% include "showcase" %}
         {% endcollection %}
     </section>
+</div>
 
-    <section id="services">
-        <h3>{{ global.site.projects.categories["services"].title }}</h3>
+<div>
+    <section class="content title" id="services">
+        <h2>{{ global.site.projects.categories["services"].title }}</h2>
         {% collection "projects" query 'category=services' order desc %}
             {% include "showcase" %}
         {% endcollection %}
