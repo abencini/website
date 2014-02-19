@@ -16,7 +16,6 @@ html, body {
   background-position: center;
   height: 500px;
   position: relative;
-  border-bottom: 1px solid #dddddd;
 
   h1 {
     display:inline-block;
@@ -45,6 +44,7 @@ section {
 
 .section-background {
   background: #f6f6f6; 
+  border-top: 1px solid #dddddd;
   border-bottom: 1px solid #dddddd;
 }
 
