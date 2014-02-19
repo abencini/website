@@ -1,24 +1,31 @@
 {% block content %}
 
-<div class="content">
+<div class="banner">
+	<h1>We will build <span class="highlight">you</span> a hat<br>and a software.</h1>
+</div>
 
-	<section id="projects">
-	    <article class="title">
-		    <h2>{{ model.sections["projects"].title }}</h2>
-		    {% collection "projects" query 'featured=true' order desc %}
-		        {% include "showcase" %}
-		    {% endcollection %}
-		<article>
-	</section>
+<div>
+	<div class="section-background">
+		<section id="projects">
+		    <article class="title" class="content">
+			    <h2>{{ model.sections["projects"].title }}</h2>
+			    {% collection "projects" query 'featured=true' order desc %}
+			        {% include "showcase" %}
+			    {% endcollection %}
+			<article>
+		</section>
+	</div>
 
-	<section id="clients">
-	    <article class="title">
-		    <h2>{{ model.sections["clients"].title }}</h2>
-		    {% collection "clients" query 'featured=true' order desc %}
-		        {% include "showcase" %}
-		    {% endcollection %}
-	    <article>
-	</section>
+	<div>
+		<section id="clients">
+		    <article class="title">
+			    <h2>{{ model.sections["clients"].title }}</h2>
+			    {% collection "clients" query 'featured=true' order desc %}
+			        {% include "showcase" %}
+			    {% endcollection %}
+		    <article>
+		</section>
+	</div>
 
 </div>
 

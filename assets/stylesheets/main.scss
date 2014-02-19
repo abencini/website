@@ -1,15 +1,51 @@
 html, body {
   height: 100%;
+  min-width: 800px;
 }
 .content {
   @include outer-container;
   padding-left: $default-margin-small;
   padding-right: $default-margin-small;
-  padding-bottom: 100px;
+  padding-bottom: 80px;
+}
+
+.banner {
+  background-image:url('/assets/images/banner.jpg');
+  background-size:100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  position: relative;
+  border-bottom: 1px solid #dddddd;
+
+  h1 {
+    display:inline-block;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+
+    font-size: em(40);
+    background-color: rgba(50, 50, 50, 0.8);
+
+    padding-right: em(10);
+    padding-left: em(10);
+    padding-top: em(5);
+    padding-bottom: em(5);
+  }
+}
+
+.highlight {
+  color: $default-highlight-color;
 }
 
 section {
   @extend .content;
+}
+
+.section-background {
+  background: #f6f6f6; 
+  border-bottom: 1px solid #dddddd;
 }
 
 hr {
@@ -21,16 +57,17 @@ hr {
 
 h2 {
   margin-top: em(20);
-  margin-bottom: em(15);
+  margin-bottom: em(20);
   margin-left: 40%;
+  width: 20%;
   margin-right: auto;
+  color: #767676;
 
-  font-weight: 200;
+  font-weight: 400;
   text-align: center;
   padding-bottom: em(15);
-  width: 20%;
 
-  border-bottom: thin solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
   border-spacing: 20px;
 }
 
