@@ -4,7 +4,7 @@
     "navigation": [
       {
         "key": "projects",
-        "title": "Projects"
+        "title": "Portfolio"
       },
       {
         "key": "team",
@@ -12,7 +12,7 @@
       },
       {
         "key": "contact",
-        "title": "Contact"
+        "title": "Contatti"
       }
     ],
     "projects": {
@@ -24,7 +24,7 @@
           "title": "Web"
         },
         "services": {
-          "title": "Services"
+          "title": "Servizi"
         }
       }
     }
