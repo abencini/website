@@ -34,6 +34,10 @@ html, body {
   }
 }
 
+.highlight {
+  color: $default-highlight-color;
+}
+
 section {
   @extend .content;
 }
