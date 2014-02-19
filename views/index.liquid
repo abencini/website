@@ -4,25 +4,28 @@
 	<h1>We will build <span class="highlight">you</span> a hat.<br>blah blah blah.</h1>
 </div>
 
-<div class="content">
+<div>
+	<div style="background: #f2f2f2;">
+		<section id="projects">
+		    <article class="title" class="content">
+			    <h2>{{ model.sections["projects"].title }}</h2>
+			    {% collection "projects" query 'featured=true' order desc %}
+			        {% include "showcase" %}
+			    {% endcollection %}
+			<article>
+		</section>
+	</div>
 
-	<section id="projects">
-	    <article class="title">
-		    <h2>{{ model.sections["projects"].title }}</h2>
-		    {% collection "projects" query 'featured=true' order desc %}
-		        {% include "showcase" %}
-		    {% endcollection %}
-		<article>
-	</section>
-
-	<section id="clients">
-	    <article class="title">
-		    <h2>{{ model.sections["clients"].title }}</h2>
-		    {% collection "clients" query 'featured=true' order desc %}
-		        {% include "showcase" %}
-		    {% endcollection %}
-	    <article>
-	</section>
+	<div style="background: #fff;">
+		<section id="clients">
+		    <article class="title">
+			    <h2>{{ model.sections["clients"].title }}</h2>
+			    {% collection "clients" query 'featured=true' order desc %}
+			        {% include "showcase" %}
+			    {% endcollection %}
+		    <article>
+		</section>
+	</div>
 
 </div>
 
