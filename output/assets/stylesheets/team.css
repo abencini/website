@@ -1,0 +1,8 @@
+body:before { 
+                            white-space: pre; 
+                            font-family: monospace; 
+                            content: 'Sass Syntax error: Undefined variable: \"$default-margin-big\". \A         on line 3 of \\Users\\sandeepgajula\\Documents\\Dev\\Apex-Net Website\\assets\\stylesheets\\team.scss \A '; } 
+                            
+                            body * { 
+                            display: none; 
+                            } 

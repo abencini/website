@@ -1,0 +1,11 @@
+footer div {
+  width: 100%;
+  margin-top: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  background-color: #2d2d2d;
+  color: #fff;
+  font-size: 1em; }
+  footer div a:link {
+    color: #0fa8e8; }

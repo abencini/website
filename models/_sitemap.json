@@ -1,0 +1,46 @@
+[
+  {
+    "directory": false,
+    "key": "index",
+    "name": "Index",
+    "url": "/index"
+  },
+  {
+    "directory": false,
+    "key": "about",
+    "name": "About",
+    "url": "/about"
+  },
+  {
+    "directory": false,
+    "key": "contact",
+    "name": "Contact",
+    "url": "/contact"
+  },
+  {
+    "children": [
+      {
+        "directory": false,
+        "key": "project",
+        "name": "Project",
+        "url": "/portfolio/project"
+      }
+    ],
+    "directory": true,
+    "key": "portfolio",
+    "name": "Portfolio",
+    "url": "/portfolio"
+  },
+  {
+    "directory": false,
+    "key": "projects",
+    "name": "Projects",
+    "url": "/projects"
+  },
+  {
+    "directory": false,
+    "key": "team",
+    "name": "Team",
+    "url": "/team"
+  }
+]

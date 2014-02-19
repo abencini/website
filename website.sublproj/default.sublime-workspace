@@ -1,0 +1,367 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"siz",
+				"size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"j",
+				"justify-content"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"bot",
+				"bottom"
+			],
+			[
+				"s",
+				"box-shadow"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/index.liquid",
+			"settings":
+			{
+				"buffer_size": 874,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/index.scss",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/header.scss",
+			"settings":
+			{
+				"buffer_size": 1103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/includes/header.liquid",
+			"settings":
+			{
+				"buffer_size": 215,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"Set Syntax: HTML (Liquid)",
+				"Set Syntax: HTML (Liquid)"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/header.scss",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/includes/header.liquid",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/includes/footer.liquid",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/footer.scss",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/layouts/layout.liquid",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/main.scss",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/container.scss",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/application.scss",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/about.liquid",
+		"/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/index.scss",
+		"/Users/sandeepgajula/Documents/Foldesk/foldesk_repository/app/assets/stylesheets/welcome_controller.css.scss",
+		"/Users/sandeepgajula/Documents/Foldesk/foldesk_repository/app/assets/stylesheets/bootstrap_and_overrides.css.scss",
+		"/Users/sandeepgajula/Documents/Foldesk/foldesk_repository/app/views/layouts/application.html.erb",
+		"/Users/sandeepgajula/Documents/Foldesk/foldesk_repository/app/views/welcome/index.html.erb",
+		"/Users/sandeepgajula/Documents/Foldesk/foldesk_repository/app/views/users/show.html.erb",
+		"/Users/sandeepgajula/Documents/Foldesk/foldesk_repository/app/assets/stylesheets/users_controller.css.scss",
+		"/Users/sandeepgajula/Desktop/Mixture Example/templates/layouts/layout.liquid",
+		"/Users/sandeepgajula/Desktop/Mixture Example/models/_global.json",
+		"/Users/sandeepgajula/Desktop/Mixture Example/templates/index.liquid",
+		"/Users/sandeepgajula/Desktop/Mixture Example/collections/article/markdown-example.md",
+		"/Users/sandeepgajula/Desktop/Mixture Example/collections/article/haml-example.haml",
+		"/Users/sandeepgajula/Desktop/Mixture Example/collections/article/liquid-example.liquid",
+		"/Users/sandeepgajula/Desktop/Mixture Example/collections/article/fabrizio-bassi.md",
+		"/Users/sandeepgajula/Desktop/Test/test.html",
+		"/Users/sandeepgajula/Documents/Foldesk/foldesk_repository/app/controllers/sessions_controller.rb",
+		"/Users/sandeepgajula/.profile",
+		"/Users/sandeepgajula/.bashrc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width",
+			"960",
+			"980'",
+			"avatar-large",
+			"avatar",
+			"\"article\""
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/index.liquid",
+					"settings":
+					{
+						"buffer_size": 874,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								143,
+								143
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/index.scss",
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								52,
+								52
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/assets/stylesheets/header.scss",
+					"settings":
+					{
+						"buffer_size": 1103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1101,
+								1101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/sandeepgajula/Documents/Dev/Apex-Net Website/views/includes/header.liquid",
+					"settings":
+					{
+						"buffer_size": 215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								215,
+								215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Siteleaf Liquid Syntax/Syntaxes/HTML (Liquid).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 223.0,
+	"status_bar_visible": true
+}
