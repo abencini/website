@@ -3,6 +3,7 @@ $default-highlight-color: #3abddb;
 $default-link-color: #3abddb;
 
 $dark-font-color: #333333;
+$grey-font-color: #666666;
 $light-font-color: #aaaaaa;
 
 $title-text-color: $dark-font-color;
@@ -13,14 +14,14 @@ $default-margin-medium: em(15);
 $default-margin-small: em(4);
 $image-margin: em(10);
 
-$default-font-small: em(14);
-$default-font-medium: em(16);
-$default-font-big: em(20);
+$default-font-small: em(15);
+$default-font-medium: em(18);
+$default-font-big: em(21);
 
 // Header ---------------------------------------------------------------
 
 // Nav links
-$header-nav-link-color: $dark-font-color;
+$header-nav-link-color: white;
 $header-nav-link-color-visited: $dark-font-color;
 $header-nav-link-color-hover: $dark-font-color;
 $header-nav-link-color-active: $dark-font-color;
