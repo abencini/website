@@ -2,7 +2,7 @@
 
 Apex–net S.r.l. — the [website](http://www.apexnet.it/).
 
-For questions, contact @teopost.
+For questions, contact [@teopost](https://github.com/teopost).
 
 # Getting Started
 
@@ -18,19 +18,18 @@ As an author or an editor you will be able to add new content or modify existing
 
 It is mostly sufficient that you know the [GitHub Flow in the Browser](https://github.com/blog/1557-github-flow-in-the-browser). Anyway, here’s a quick recap:
 
-0. Create a new branch <span style="color: lightgray;">off of `master` branch</span>
-1. Do some work <span style="color: lightgray;">on newly created branch</span>
-2. Create a pull–request <span style="color: lightgray;">from your branch into `master` branch</span>
-3. Wait for feedback
+0. Create a new branch *(off of `master` branch)*
+1. Do some work *(on newly created branch)*
+2. Create a pull–request *(from your branch into `master` branch)*
+3. Wait for a review
 
 *(At this point you should wait for someone to review your changes and give some feedback.)*
 
 <ol start="5">
-  <li>Merge your branch <span style="color: lightgray;">into <code>master</code> branch</span></li>
+  <li>Merge your branch <em>(into <code>master</code> branch)</em></li>
 </ol>
 
-| :information_source: Changes you did will not be visible on the website unless a developer or a maintainer makes them publicly available. |
-|:--- |
+> :information_source: Changes you did will not be visible on the website unless a developer or a maintainer makes them publicly available.
 
 ## As a developer or a maintainer
 
@@ -51,7 +50,7 @@ At this point, using Mixture app, you should be able do work and preview your ch
 
 # Collaborate
 
-As an author or an editor, ideally, the only content that you should be touching is under the `collections/` directory. A “collection” but a class of data that is somehow (i.e., logically) related to each other.
+As an author or an editor, ideally, the only content that you should be touching is under the `collections/` directory. A “collection” is nothing but a class of data that is somehow (i.e., logically) related to each other.
 
 Collections are simply folders inside the `collections/` directory.
 
@@ -74,8 +73,7 @@ Collection files (i.e. files with the `*.md` extension inside the `collections/`
 
 If you're not familiar with [Markdown](http://daringfireball.net/projects/markdown/), you should go and read about it.
 
-| :warning: Whenever it is possible, we suggest using only Markdown syntax in collections. <span style="color: red;">Avoid writing HTML if not absolutely necessary!</span> |
-|:--- |
+> :warning: Whenever it is possible, we suggest using only Markdown syntax in collections. **Avoid writing HTML if not absolutely necessary!**
 
 ## Collections
 
@@ -182,9 +180,9 @@ A file `*.md` per team member that contain some metadata.
 
 # Publish
 
-Developers and maintainers can update (by publishing) the website using Mixture app.
+Developers and maintainers can publish a newer version of the website using Mixture app on Mac or Windows.
 
-Do the following:
+Follow the few steps below and you're good to go:
 
 1. Open Apex-net website in Mixture app
 2. Go to "Tools" and click on "Convert to HTML"
