@@ -1,6 +1,0 @@
-li.six-columns {
-  @include span-columns(2);
-  @include omega(6n);
-
-  margin-top: $image-margin;
-}

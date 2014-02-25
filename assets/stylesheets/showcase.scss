@@ -1,7 +1,0 @@
-li.four-columns {
-  @include span-columns(3);
-  @include omega(4n);
-
-  margin-top: $image-margin;
-}
-
